@@ -8,7 +8,7 @@ while True:
             print(f'O número que você digitou foi {num} ele e PAR.')
 
         else:
-            print(f'O número que você digitou é IMPAR.')
+            print(f'O número que você digito é IMPAR.')
 
     except ValueError:
         print('\033[31mDigite um número inteiro valido! Tente novamente.\033[m')
