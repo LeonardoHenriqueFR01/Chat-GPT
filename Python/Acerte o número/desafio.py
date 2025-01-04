@@ -3,6 +3,7 @@
 
 
 from random import randint
+from time import sleep
 
 
 def Acerte_num():
@@ -14,6 +15,9 @@ def Acerte_num():
         except ValueError:
             print('\033[31mDigite um número inteiro valido! Tente novamente.\033[m')
             continue
+        
+        print('Gerando número da maquina...')
+        sleep(2)
 
         if num_user == maquina:
             print(f'O número sorteado foi {maquina} você acertou.')
