@@ -3,6 +3,7 @@
 # Se o usuário digitar 5, o programa deve somar 1 + 2 + 3 + 4 + 5 e exibir o resultado final.
 
 
+# Não foi concluído ainda
 
 def Soma_num():
     while True:
@@ -13,5 +14,7 @@ def Soma_num():
             print('\033[31mDigite um número inteiro valido! Tente novamente.\033[m')
             continue
 
-        for i in range(1, num + 1):
-            print(f'{i}')
+        
+
+Soma_num()
+ 
